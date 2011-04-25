@@ -1,0 +1,5 @@
+<form action="page.php" method="post">
+	<input type="text" maxlength="100" class="input" name="keywords"/> 
+	<input type="submit" class="btn" value="Search" />
+	<a href="admin/login.php" style="float:right;color: #0063DC;font-size:10px;">Login</a>
+</form>

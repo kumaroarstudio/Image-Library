@@ -1,0 +1,12 @@
+<?php
+	header("Content-Type:text/html;charset=utf-8");
+	require_once ('../config/conn.inc.php');
+	require_once ('../libs/Smarty.class.php');
+	
+	$smarty = new Smarty ();
+	
+	$smarty->assign('title', "Index");
+
+	$smarty->display('index.tpl');
+
+#FILE-END
